@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+* {
+    font-family: 'Kanit', sans-serif;
+    box-sizing : border-box;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+body {
+    overflow-y:hidden;
+}
+
+#mainpage {
+    height:100vh;
+    margin-top: 2rem;
+    background-color: #2F2FA1;
+}
+
+#About , #Education , #Skill , #Contact{
+    background-color: #2F2FA1;
+}
+
+#About h1 , #Education h1 , #Skill h1 , #work h1 , #Contact h1 {
+    color: #ff6183;
+    text-shadow: 2px 2px #b82243;
+}
+
+.skill-head-text {
+    text-shadow: 2px 2px #F64C71;
+    color: white;
+}
+
+.history p , .education-text {
+    color:whitesmoke;
+}
+
+.education-head-text , .skill-container h1{
+    color: white;
+    text-shadow: 4px 4px #563D67;
+    font-weight: bold;
+}
+
+.skill-container {
+    background: #EAEAEA;
+}
+
+.hero {
+    background-size: cover;
+    height: 38rem;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10rem;
+}
+
+.herotext {
+    color: white;
+}
+
+.herosub {
+    color: aquamarine;
+}
+
+#heroname {
+    color: #F64C71;
+}
+
+#Hero2 {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 20rem;
+}
+
+.nav-item {
+    cursor:pointer;
+}
+
+.card {
+    cursor:pointer;
+}
+
+.card:hover {
+    opacity: 0.9;
+    transition: opacity linear 0.3s;
+}
+
+#pythonimage , #Cppimage {
+    width: 4rem;
+}
+
+#sarasaspic {
+    width: 12rem;
+}
+#suthipic{
+    width: 9rem;
+}
+
+#kmuttpic {
+    width: 10rem;
+}
+
+#mynav {
+    background: #242582;
+}
+
+.contactIcons {
+    color: whitesmoke;
+}
+
+.contactText {
+    color: whitesmoke;
+
+}
+
+.form-container {
+    display:block;
+    width:40%;
+    margin:0 auto;
+}
+
+.nav-item:hover {
+    background-color: #F64C71;
+    border-radius: 5rem;
+    transition: 1s ease;
+}
+
+#brandname {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#brandname:hover {
+    opacity: 0.9;
+    transition: opacity ease-in 0.5s;
+}
+
+#work {
+    background-color: #2F2FA1;
+}
+
+.skill-box {
+    color: white;
+}
+
+.form-label {
+    color: white;
+}
+
+.copyright {
+    background-color: #242582;
+    color: white;
+}
+
+@media screen and (min-width: 770px) and (max-width: 2000px) {
+    .hero {
+        height: 35rem;
+    }
+    .imagezone {
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width: 769px) {
+    #mainpage {
+        height: 135vh;
+    }
+    .imagezone {
+        flex-direction: column;
+    }
+    
+    .hero {
+        margin-top: 5rem;
+        height: 35rem;
+        width:auto;
+        background-size: cover;
+        object-fit: cover;
+    }
+    #sarasaspic {
+        width: 10rem;
+    }
+    #suthipic{
+        width: 9rem;
+    }
+    
+    #kmuttpic {
+        width: 10rem;
+    }
+
+    .form-container {
+        display:block;
+        width:70%;
+        margin:0 auto;
+    }
+
+    .contactText {
+        font-size: 1.3rem;
+    }
+}
